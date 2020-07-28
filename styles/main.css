@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.clock{
+  margin-top: 130px;
+  position: relative;
+  width: 150px;
+  height: 150px;
+
+  background-color: #3ff4e5;
+
+  border-radius: 50%;
+}
+
+
+.clock span{
+  position: absolute;
+  width: 5px;
+  height: 60px;
+  background-color: #000;
+  left: 50%;
+  top: 10%;
+  bottom: 15%;
+  border-radius: 999px;
+}
